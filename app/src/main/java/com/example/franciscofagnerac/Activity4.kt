@@ -46,7 +46,7 @@ class Activity4 : AppCompatActivity() {
 
         findViewById<Button>(R.id.btn_browser).setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://google.com"))
+                Uri.parse("https://github.com/Fagner-de-paiva/devMobile-quizAndroid.git"))
             startActivity(intent)
         }
     }

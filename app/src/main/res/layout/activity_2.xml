@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Qual sua personalidade?"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opcao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sério" />
+
+        <RadioButton
+            android:id="@+id/opcao2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engraçado" />
+        <RadioButton
+            android:id="@+id/opcao3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corajoso" />
+
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnProxima2"
+        android:text="Próxima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

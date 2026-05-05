@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="O que você faria em perigo?"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opcao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Planejar nas sombras" />
+
+        <RadioButton
+            android:id="@+id/opcao2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agir com humor" />
+        <RadioButton
+            android:id="@+id/opcao3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lutar com honra" />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:text="Ver Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
